@@ -1,0 +1,9 @@
+ext.main = [
+        'org.springframework.boot:spring-boot-starter-actuator:2.1.6.RELEASE',
+        'org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE'
+        
+]
+
+ext.test = [
+        'org.springframework.boot:spring-boot-starter-test:2.1.6.RELEASE'
+]
