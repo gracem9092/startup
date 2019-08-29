@@ -4,7 +4,7 @@ Basic set up of spring project using gradle.
 * Pre-commit hook
 
 
-####Pre-commit hook:
+#### Pre-commit hook:
 
 Do you forget to run tests locally and push your code changes? In general, it is good practice to run tests for every commit.
 To automate this process, you can configure pre-commit hook. This will run unit tests just before every commit and wont allow you to commit if the tests fails.
