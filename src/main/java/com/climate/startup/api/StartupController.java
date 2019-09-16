@@ -17,7 +17,7 @@ public class StartupController {
         log.info("Incoming GET query, with a param {}", word);
         String message = "Your word is : " + word;
         StartupResources build = StartupResources.builder()
-                .startupResource(StartupResources.StartupResource.builder()
+                .startup(StartupResources.StartupResource.builder()
                         .message(message)
                         .build())
                 .build();

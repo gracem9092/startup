@@ -9,11 +9,11 @@ import lombok.Value;
 @EqualsAndHashCode
 public class StartupResources {
 
-    private final StartupResource startupResource;
+    private StartupResource startup;
 
     @Builder
     @Value
-    public static final class StartupResource {
+    public static class StartupResource {
         private String message;
     }
 }
