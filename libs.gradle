@@ -1,8 +1,11 @@
-ext.main = [
+ext.libs = [
+        spring      : [
         'org.springframework.boot:spring-boot-starter-actuator:2.1.6.RELEASE',
         'org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE',
-        'org.projectlombok:lombok:1.18.8'
-        
+                ],
+        lombok      : [
+                'org.projectlombok:lombok:1.18.8'
+        ]
 ]
 
 ext.test = [

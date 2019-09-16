@@ -17,6 +17,11 @@ repositories {
 }
 
 dependencies {
-	implementation main
+	implementation libs.spring
 	testImplementation test
+
+	compileOnly libs.lombok
+	testCompileOnly libs.lombok
+	annotationProcessor libs.lombok
+	testAnnotationProcessor libs.lombok
 }
