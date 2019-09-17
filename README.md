@@ -41,3 +41,6 @@ These additional references should also help you:
 #### …or push an existing repository from the command line
 git remote add origin https://github.com/gracem9092/startup.git
 git push -u origin master
+
+####Run the Project locally
+``./gradlew clean bootRun``, then open the browser and type ``http://127.0.0.1:8080/startup?word=hey``
